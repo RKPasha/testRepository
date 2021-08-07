@@ -56,7 +56,7 @@ function showCards () {
         ':' +
         dateTime.getSeconds()
       cardsBody += `        <div
-            class="card my-3 mx-5"
+            class="card my-3 mx-5 col-md-3"
             style="width: 18rem; background-color: #ffbcbc;"
             id="card"
           >
@@ -141,7 +141,7 @@ function updateCardsBySearch (searchArr) {
         ':' +
         dateTime.getSeconds()
       cardsBody += `        <div
-      class="card my-3 mx-5"
+      class="card my-3 mx-5 col-md-3"
       style="width: 18rem; background-color: #ffbcbc;"
       id="card"
     >
